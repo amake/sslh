@@ -186,7 +186,6 @@ void tcp_listener(struct listen_endpoint* endpoint, int num_endpoints, int activ
             case EPROTO:
             case ENOPROTOOPT:
             case EHOSTDOWN:
-            case ENONET:
             case EHOSTUNREACH:
             case EOPNOTSUPP:
             case ENETUNREACH:
